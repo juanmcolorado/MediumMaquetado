@@ -56,9 +56,38 @@ main {
 .img-card-E {
   height: 30vh;
   border: none;
+  margin-bottom: 2rem;
 }
 
 .bg-color-boton {
   background-color: limegreen;
+}
+
+.user_img {
+  height: 35px;
+  width: 35px;
+}
+
+.contPost {
+  margin: 6rem;
+}
+
+.form {
+  padding: 3rem;
+}
+
+@media (max-width: 767px) {
+  .contPost {
+    margin: 0;
+  }
+  .users {
+    display: none;
+  }
+  .container1 {
+    width: 100%;
+  }
+  .form {
+    padding: 0.5rem;
+  }
 }
 /*# sourceMappingURL=style.css.map */
